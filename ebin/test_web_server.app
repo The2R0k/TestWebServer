@@ -1,0 +1,9 @@
+{application,test_web_server,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{test_web_server_app,[]}},
+              {env,[]},
+              {modules,[correct_handler,fzf_handler,test_web_server,
+                        test_web_server_app,test_web_server_sup]}]}.
